@@ -1,0 +1,44 @@
+@charset "ISO-8859-1";
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Here is one of many  CSS rules you will need... */
+div {
+	width: 25%;
+	border: 5px red solid;
+	padding: 5px;
+	margin: 5px;
+}
+a {
+	color: white;
+	text-decoration:none;
+}
+#one {
+	position: absolute;
+	right: 0%;
+	border: 5px #008000 solid;
+}
+#two {
+	position: absolute;
+	right: 0%;
+	top: 30%;
+	border: 5px #0000ff solid;
+}
+#three {
+	border: 5px #ff8000 solid;
+}
+#four {
+	border: 5px yellow solid;
+	position: absolute;
+	top: 30%;
+}
+#link {
+	position: absolute;
+	text-decoration:none;
+	padding: 5px;
+	top: 0%;
+	right: calc(50% - 52px);
+	background-color: blue;
+}
